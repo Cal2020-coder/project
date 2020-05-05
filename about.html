@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <title>About</title>
+  </head>
+  <body>
+    <h1>About</h1>
+    <div class="grid-container top-nav">
+      <div class="col-1"></div>
+      <div class="col-2">
+        <a href="index.html">Home</a>
+      </div>
+      <div class="col-3">
+        <div class="product">
+          <label for="product-select"> Topics</label>
+          <form id="form" action="" method="get">
+            <select
+              name="topic"
+              id="topic-select"
+              onchange="topics(this.value)"
+            >
+              <!--Not wanting the first one to get select -->
+              <option value="">Please select a topic</option>
+              <option value="index.html">Home </option>
+              <option value="macro.html">Macro-economics </option>
+              <option value="stocks">Stock Fundamentals</option>
+            </select>
+          </form>
+        </div>
+      </div>
+      <div class="col-3.2">
+        <a href="about.html">About</a>
+      </div>
+      <div class="col-3.3">
+        <a href="resources.html">Resources</a>
+      </div>
+      <div class="col-3.4">
+        <form class="search">
+          <input type="text" placeholder="Search..." name="search" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      <div class="col-4"></div>
+    </div>
+
+    <div class="grid-container-2-1">
+      <div class="col-1"></div>
+      <div class="col-5-1">
+        <h3>Hi All,</h3>
+        <p>
+          My name is Oai Tran and I am the creater of this webpage. The goal of
+          this webpage is to share what I learned and hope these materials here
+          will help you in your economics classes. Noticed that this is my
+          personal experiences, which does not speak to all. I just want to
+          share what I known and hope that it would help those that are taking
+          lower-division economics classes.
+        </p>
+        <p>
+          A little bit about me: I am a transfer student, who graduated with an
+          Economics degree B.A. from University of California - Berekeley
+          (UC-Berekeley or Cal). Before I came to Cal, I had attended a few
+          community colleges such as CoastLine, SaddleBack then Chabot College.
+          While in Community Colleges, I took basic classes and never thought
+          about apply to any University; nonetheless, I did it simply because
+          one of my teacher at Chabot college had no hope in the students and
+          kinda look down on the Economics degree from UC. I was told that I
+          need to talk all the math and CS classes if I was to think about
+          appling. I guess it partly true that having a strong math background
+          and CS would help you. I mean it would help you in anything in life
+          pretty much.
+        </p>
+        <p>
+          Economics is not hard, what hard is that professors did not break down
+          the materials in a more simplier terms or real life examples. This is
+          extremely true in lower-dicision classes. Where you learn theories and
+          terms that you have no ideas what they are talking about. Here, this
+          webpage. I hope to undo exactly that. I will define the terms,
+          translated to everyday english, give examples, then graph them. I hope
+          this approach will help you understand more about what Economics and
+          be able to understand what you read or see on the news.
+        </p>
+        <p>
+          On the last note- I hope to learn more from you also. Please email if
+          you have any question and I am also doing tutor if you need any help.
+          I do understand that there are a lot of vidoes and website out there
+          about the topics. Use this as one of the 1000 tools, and continue
+          learning.
+        </p>
+      </div>
+      <div class="col-7"></div>
+    </div>
+  </body>
+</html>

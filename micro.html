@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <title>mirco</title>
+  </head>
+  <body background="images/micro-suply-demand.png">
+    <div class="grid-container top-nav">
+      <div class="col-1">1</div>
+      <div class="col-2">
+        2
+        <a href="index.html">Home</a>
+      </div>
+      <div class="col-3">
+        <div class="product">
+          <label for="product-select"> Topics</label>
+          <form id="form" action="" method="get">
+            <select name="topic" id="topic-select" onchange="topics(this.value)">
+              <!--Not wanting the first one to get select -->
+              <option value="">Please select a topic</option>
+              <option value="index.html">Home
+              </option>
+              <option value="macro.html">Macro-economics </option>
+              <option value="stocks">Stock Fundamentals</option>
+            </select>
+        </div>
+      </div>
+      <div class="col-3.2">
+        <a href="about.html">About</a>
+      </div>
+      <div class="col-3.3">
+        <a href="resources.html">Resources</a>
+      </div>
+      <div class="col-3.4">
+        <form class="search">
+          <input type="text" placeholder="Search..." name="search" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      <div class="col-4">4</div>
+    </div>
+    <div class="grid-container-2-1">
+      <div class="col-1">1</div>
+      <div class="col-5-1">
+        5.1
+        <h1>Micro</h1>
+        <div class="col-5-1-1">
+          <div id="outer">
+            <div class="micro-list">
+              <ul id="horizontal-list-1">
+                <li>What is Micro-economics?</li>
+                <li>Type of Markets</li>
+                <li>Consumer and Producers</li>
+                <li>Elasticity</li>
+              </ul>
+            </div>
+          </div>
+          <div class="outer">
+            <ul id="horizontal-list-1">
+              <li>Comparative Advantage</li>
+              <li>Absolute Advantage</li>
+              <li>Gain from Specialization</li>
+            </ul>
+          </div>
+          <div class="outer">
+            <ul id="horizontal-list-1">
+              <li>Pricing</li>
+              <li>Utility</li>
+              <li>Maximization</li>
+              <li>Firms profit</li>
+              <li>Firms Short Run and Long Run</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-7-1">7</div>
+    </div>
+  </body>
+</html>

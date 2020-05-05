@@ -1,0 +1,152 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 2.25fr 1.5fr 1.5fr 4fr 1fr;
+}
+.top-nav {
+  background-color: bisque;
+  color: black;
+}
+.col-1 {
+  text-align: left;
+  padding: 5px;
+}
+.col-2 {
+  text-size-adjust: auto;
+  text-align: left;
+  color: black;
+  padding: 5px;
+}
+
+.col-3.label {
+  text-align: left;
+  clear: both;
+  float: left;
+  margin-right: 15px;
+}
+/* search field*/
+form.search input[type="text"] {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px grey;
+  float: center;
+  width: 70%;
+  background: #f1f1f1;
+}
+/*Button field- in col-3 */
+form.search button {
+  float: center;
+  width: 20%;
+  padding: 5px;
+  font-size: 10px;
+  border-left: none;
+  cursor: pointer;
+}
+
+.col-4 {
+  text-align: left;
+  padding: 5px;
+}
+a {
+  color: blue;
+  font-size: 14px;
+  text-size-adjust: auto;
+}
+
+/*This is the body of the page*/
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 0.5fr 8.5fr 1fr;
+}
+.col-7 {
+  background-color: whitesmoke;
+  text-align: left;
+  color: black;
+}
+.col-5 {
+  background-color: white;
+}
+.subcol a {
+  color: white;
+}
+.subcol {
+  background-color: black;
+  border: 1px black;
+  color: white;
+}
+.col-6 {
+}
+/*This is where texts show up and graphs */
+h3 {
+  font-weight: normal;
+  font-size: 16px;
+}
+.grid-contrainer-3-1 {
+  display: grid;
+  grid-template-columns: 13fr;
+  background-color: wheat;
+}
+.col1-2 {
+  align-content: center;
+}
+.grid-contrainer-3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 3fr 2fr 1fr;
+}
+.col-8 {
+  background-color: black;
+  color: white;
+}
+.col-8 header {
+  font-size: 4px;
+}
+.col-8 h2 {
+  font-size: 4px;
+}
+.col-9 {
+  background-color: black;
+  color: white;
+}
+.col-10 {
+  background-color: black;
+  color: white;
+}
+.col-11 {
+  background-color: black;
+  color: white;
+}
+.col-12 {
+  background-color: black;
+  color: white;
+}
+
+/* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */
+/* Style for About page. This page is dedicate to talk about my back-ground and why did I do this project. It will answer the 5W's 
+/* */ /* */ /* */ /* */ /* */ /* */
+.grid-container-2-1 {
+  display: grid;
+  grid-template-columns: 1fr 9fr 3fr;
+}
+
+/* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */
+/* Micro- webpage
+/* */ /* */ /* */ /* */ /* */ /* */
+
+.col-5-1 {
+  background-color: white;
+}
+.col-5-1-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr) 1fr;
+  background-color: gray;
+}
+#outer {
+  background: lightgrey;
+  color: black;
+}
+.micro-list {
+  display: table;
+}
+ul#horizontal-list-1 li {
+  background-image: url(i/bullet.gif) no-repeat center left;
+  display: list-item;
+}

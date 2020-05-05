@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <title>Contract</title>
+  </head>
+  <body>
+    <h1>Contract</h1>
+    <div class="grid-container top-nav">
+      <div class="col-1"></div>
+      <div class="col-2">
+        <header>
+          <nav>
+            <ul style="list-style-type: 0;">
+              <a href="index.html">Home</a>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <div class="col-3">
+        <div class="product">
+          <label for="product-select"> Topics</label>
+          <form id="form" action="" method="get">
+            <select name="topic" id="topic-select" onchange="topics(this.value)">
+              <!--Not wanting the first one to get select -->
+              <option value="">Please select a topic</option>
+              <option value="micro.html">Micro-economics
+              </option>
+              <option value="macro.html">Macro-economics </option>
+              <option value="stocks">Stock Fundamentals</option>
+            </select>
+        </div>
+      </div>
+      <div class="col-3.2">
+        <a href="about.html">About</a>
+      </div>
+      <div class="col-3.3">
+        <a href="resources.html">Resources</a>
+      </div>
+      <div class="col3.4">
+        <form class="search">
+          <input type="text" placeholder="Search..." name="search" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      <div class="col-4"></div>
+    </div>
+  </body>
+</html>
