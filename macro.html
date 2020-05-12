@@ -3,22 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="https://www.chartjs.org/samples/latest/utils.js"></script>
     <link rel="stylesheet" href="style.css" />
     <script src="index.js"></script>
-    <title>Macro</title>
+    <title>mirco</title>
   </head>
   <body>
-    <h1>Macro</h1>
+    <H1>Macro-economics</H1>
     <div class="grid-container top-nav">
       <div class="col-1"></div>
       <div class="col-2">
-        <header>
-          <nav>
-            <ul style="list-style-type: 0;">
-              <a href="index.html">Home</a>
-            </ul>
-          </nav>
-        </header>
+        <a href="index.html">Home</a>
       </div>
       <div class="col-3">
         <div class="product">
@@ -27,9 +26,9 @@
             <select name="topic" id="topic-select" onchange="topics(this.value)">
               <!--Not wanting the first one to get select -->
               <option value="">Please select a topic</option>
-              <option value="micro.html">Micro-economics
+              <option value="index.html">Home
               </option>
-              <option value="index.html">Home </option>
+              <option value="micro.html">Micro-economics </option>
               <option value="stocks">Stock Fundamentals</option>
             </select>
         </div>
@@ -40,7 +39,7 @@
       <div class="col-3.3">
         <a href="resources.html">Resources</a>
       </div>
-      <div class="col3.4">
+      <div class="col-3.4">
         <form class="search">
           <input type="text" placeholder="Search..." name="search" />
           <button type="submit">Search</button>
@@ -48,5 +47,32 @@
       </div>
       <div class="col-4"></div>
     </div>
+    </div>
+    <br>
+    <div class="grid-container-2-1">
+      <div class="col-1"></div>
+      <div class="col-5-1">
+        <H1>Macro Examples:</H1>
+      </div>
+      <div class="col-7-1"></div>
+    </div>
+    <div style="width: 75%;">
+      <div class="chartjs-size-monitor">
+        <div class="chartjs-size-monitor-expand">
+          <div class=""></div>
+        </div>
+        <div class="chartjs-size-monitor-shrink">
+          <div class=""></div>
+        </div>
+      </div>
+      <canvas id="canvas" style="display: block; height: 346px; width: 692px;" width="1384" height="692"
+        class="chartjs-render-monitor"></canvas>
+      <button id="randomizeData">Randomize Data</button>
+      <button id="addDataset">Add Dataset</button>
+      <button id="removeDataset">Remove Dataset</button>
+      <button id="addData">Add Data</button>
+      <button id="removeData">Remove Data</button>
+    </div>
+    
   </body>
 </html>
